@@ -58,5 +58,5 @@ except ValueError:
     sys.exit(1)
 
 
-start_message = os.environ.get("TG_START_MESG", "Send any telegram file and see the MAGIC!!")
-group_chat_message = os.environ.get("TG_G_C_MESG", "Sorry. But, I only work in private.")
+start_message = os.environ.get("TG_START_MESG", "Send me the file sir")
+group_chat_message = os.environ.get("TG_G_C_MESG", "Sorry Sir. But, I only work in private.")
